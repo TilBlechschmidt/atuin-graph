@@ -81,7 +81,7 @@ def generate_calendar(config, user, from_, until):
         df["activity"],
         dropzero=True,
         edgecolor=None,
-        cmap="YlGn",
+        cmap="summer",
         colorbar=False,
         suptitle="Shell history",
         yearlabel_kws={"fontname": "sans-serif"},
